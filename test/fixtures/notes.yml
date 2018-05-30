@@ -2,8 +2,8 @@
 
 one:
   body: MyText
-  Person: one
+  person: one
 
 two:
   body: MyText
-  Person: two
+  person: two

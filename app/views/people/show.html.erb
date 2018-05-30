@@ -3,7 +3,8 @@
 <h3>Hair Color: <%= @person.hair_color.capitalize %></h3>
 <h3>Eye Color: <%= @person.eye_color.capitalize %></h3>
 <h3>Gender: <%= @person.gender.capitalize %></h3>
-<h3>Alive? <%= x = @person.alive%></h3>
+<h3>Alive? <%= @person.alive%></h3>
+<h3>Notes <%= @person.notes%></h3>
 
 <%= link_to "Edit", edit_person_path %>
 <%= link_to "Delete", @person, method: :delete%>
